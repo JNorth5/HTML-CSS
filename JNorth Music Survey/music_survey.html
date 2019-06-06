@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html  lang ="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="survey.css" >
+	<title>INFO 1311 Form Page</title>
+</head>
+
+<body>
+<div id="wrapper">
+<!--   Jacob North
+	INFO 1311
+	Olberding
+	Winter 2017-->
+	<h1>Music Survey</h1>
+	<p>Please fill out this form so we can use the information to determine what music people are listening to and how often they purchase music.</p>
+	<form method="post" action="https://www.mccinfo.net/webresources/cgi-bin/formmail.asp">
+		<input type="hidden" name="subject" value="INFO 1311 Final Project Jacob North">
+		<label>First Name:<input name="realname" type="text" ></label><br><br>
+		<label>Last Name:<input name="realname" type="text"></label><br><br>
+		<input name="recipient" type="hidden" value="lolberding@mccneb.edu">
+		<label>E-mail:<input name="email" type="text"></label><br>
+		<br><br>
+		<fieldset>
+			<legend>Select Your Favorite Types of Music:</legend>
+			<input type="checkbox">Pop <br>
+			<input type="checkbox">Classical <br>
+			<input type="checkbox">Rock <br>
+			<input type="checkbox">Folk<br>
+			<input type="checkbox">Rap <br>
+			<input type="checkbox">Other<br>
+		</fieldset>
+		<br>
+		<fieldset>
+			<legend>Select how often you purchase Music Cds:</legend>
+			<input type="radio">Weekly<br>
+			<input type="radio">A Few CDs Each Year<br>
+			<input type="radio">Monthly<br>
+			<input type="radio">Never Purchase<br>
+		</fieldset>
+		<br>
+		Select the method you use most often to purchase Music
+		<br>
+		<select size="1">
+			<option> </option>
+			<option>Online</option>
+			<option>Retail Store</option>
+			<option>Other</option>
+		</select>
+		<br><br>
+		What role does music play in your life?
+		<br>
+		<textarea cols="60" rows="6"></textarea>
+		<br>
+		<input type="submit">
+		<input type="reset" value="Clear Form">
+		<input name="required" type="hidden" value="email,realname">
+		<input name="return_link_url" type="hidden" value="http://student.mccinfo.net/~jnorth3/final_project/return.html">
+		<input name="return_link_title" type="hidden" value="Home">
+		<input name="font_face" type="hidden" value="Arial,Helvetica">
+		<input name="font_size" type="hidden" value="6">
+		<input name="title" type="hidden" value="Thank you for taking the time to complete the form.  Below is the information that you submitted.  Please print this page and keep it for your records.">
+		<input type="hidden" name="text_color" value="#000000">
+		<input name="bgcolor" type="hidden" value="#666666">
+		
+	</form>
+</body>
+    
+</html>
