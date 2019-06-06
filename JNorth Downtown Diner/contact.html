@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html  lang ="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="downtown_diner.css" media="screen">
+	<link rel="stylesheet" href="downtown_dinerprint.css" media="print">
+	<title>Downtown Diner Contact-Us</title>
+</head>
+
+<body>
+<div id="wrapper">
+<!--   Jacob North
+	INFO 1311
+	Olberding
+	Winter 2017-->
+	<header>
+		<img src="banner.jpeg" id="banner" alt="banner"> <!--This banner was obtained from https://www.onlinelogomaker.com/logomaker/#-->
+		<h1>Downtown Diner</h1>
+	</header>
+	<nav>
+			<a href="home.html">Home</a>
+			<a href="history.html">History</a>
+			<a href="specials.html">Specials</a>
+			<a href="contact.html">Contact Us</a>
+	</nav><br><br><br>
+	
+	<main>
+		<form method="post" action="https://www.mccinfo.net/webresources/cgi-bin/formmail.asp">
+		<input type="hidden" name="subject" value="Final">
+		<label>First Name:<input name="realname" type="text" ></label><br><br>
+		<label>Last Name:<input name="realname" type="text"></label><br><br>
+		<input name="recipient" type="hidden" value="lolberding@mccneb.edu">
+		<label>E-mail:<input name="email" type="text"></label><br><br>
+		Phone:<input type="text">
+		<br><br>
+		Questions or Comments
+		<br>
+		<textarea cols="60" rows="6"></textarea>
+		<br>
+		How would you like to be contacted?<br>
+		Phone<input type="radio">
+		E-mail<input type="radio"><br>
+		<input type="submit">
+		<input type="reset" value="Clear Form">
+		<input name="required" type="hidden" value="email,realname">
+		<input name="return_link_url" type="hidden" value="http://student.mccinfo.net/~jnorth3/final_project/return.html">
+		<input name="redirect" type="hidden" value="http://student.mccinfo.net/~jnorth3/final_project/return.html">
+		<input name="return_link_title" type="hidden" value="Home">
+		<input name="font_face" type="hidden" value="Arial Black, Gadget, sans-serif">
+		<input name="font_size" type="hidden" value="6">
+		<input name="title" type="hidden" value="Thank you for taking the time to complete the form.">
+		<input type="hidden" name="text_color" value="#000000">
+		<input name="bgcolor" type="hidden" value="#a4d6cf">
+		</form>
+		
+	</main><br>
+	<footer>
+			<a href="home.html">Home</a>
+			<a href="history.html">History</a>
+			<a href="specials.html">Specials</a>
+			<a href="contact.html">Contact Us</a>
+		<p>Created by &copy; <a href="mailto:jnorth3@mail.mccneb.edu">Jacob North</a></p>
+	</footer>
+	</div>
+</body>
+    
+</html>
