@@ -1,0 +1,19 @@
+body { margin-left: 10px;
+	background-color: green;
+	background-image: linear-gradient(to bottom, aqua, #1a82f7);
+	background-repeat: no-repeat;
+	font-family: papyrus;
+	color: #2F2727;
+}
+#TN {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h1 {
+	font-family: papyrus;
+	color: #2F2727;
+}
+#box {margin-left: 50px;
+}
+video {margin-left: 50px;
+}
